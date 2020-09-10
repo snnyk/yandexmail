@@ -1,0 +1,21 @@
+{
+    "name": "snnyk/yandexmail",
+    "description": "Yandex corporate mail management library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinan Yalçınkaya",
+            "email": "snnyalcinkaya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Snnyk\\Yandex\\" : "src/"}
+    },
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+        
+    }
+}
